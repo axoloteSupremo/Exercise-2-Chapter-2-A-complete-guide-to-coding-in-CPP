@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std; 
+
+int main(){
+    float num1 = 123.456; 
+    float num2 = 76.543;
+    float differenceResult; 
+    float sumResult;
+    differenceResult = num1-num2;
+    sumResult = num1+num2;
+    cout << "The result of the difference is:  " << differenceResult << endl;
+    cout << "The result of the sum is:  " << sumResult <<endl;
+    
+    return 0; 
+
+}
